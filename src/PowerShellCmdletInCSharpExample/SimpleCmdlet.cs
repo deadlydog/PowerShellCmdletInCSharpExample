@@ -25,7 +25,7 @@ namespace PowerShellCmdletInCSharpExample
 			var result = new StringBuilder();
 			for (int i = 0; i < NumberOfTimesToRepeatString; i++)
 			{
-				result.AppendLine(Phrase);
+				result.Append(Phrase);
 			}
 
 			WriteObject(result.ToString());
