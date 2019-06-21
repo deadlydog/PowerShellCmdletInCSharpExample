@@ -16,14 +16,14 @@ namespace PowerShellCmdletInCSharpExample
 
 		[Parameter(Position = 1, Mandatory = true, ValueFromPipelineByPropertyName = true)]
 		[Alias("Repeat")]
-		public int NumberOfTimesToRepeatString { get; set; }
+		public int NumberOfTimesToRepeatPhrase { get; set; }
 
 		protected override void ProcessRecord()
 		{
 			base.ProcessRecord();
 
 			var result = new StringBuilder();
-			for (int i = 0; i < NumberOfTimesToRepeatString; i++)
+			for (int i = 0; i < NumberOfTimesToRepeatPhrase; i++)
 			{
 				result.Append(Phrase);
 			}

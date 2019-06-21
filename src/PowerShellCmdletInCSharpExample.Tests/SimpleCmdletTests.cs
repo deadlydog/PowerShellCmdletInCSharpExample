@@ -19,7 +19,7 @@ namespace PowerShellCmdletInCSharpExample.Tests
 					var cmdlet = new GetRepeatedStringCmdlet()
 					{
 						Phrase = phrase,
-						NumberOfTimesToRepeatString = numberOfTimesToRepeat
+						NumberOfTimesToRepeatPhrase = numberOfTimesToRepeat
 					};
 					var expectedResult = Enumerable.Repeat(phrase, numberOfTimesToRepeat);
 
