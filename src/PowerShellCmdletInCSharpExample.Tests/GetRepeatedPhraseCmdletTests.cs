@@ -35,6 +35,7 @@ namespace PowerShellCmdletInCSharpExample.Tests
 
 					// Assert.
 					Assert.Equal(results.First(), expectedResult);
+					Assert.True(results.Count == 1);
 				}
 			}
 		}
