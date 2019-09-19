@@ -25,13 +25,7 @@ namespace PowerShellCmdletInCSharpExample.Tests
 					var expectedResult = "A test phrase.A test phrase.A test phrase.";
 
 					// Act.
-					var results = new List<string>();
-					var enumerator = cmdlet.Invoke().GetEnumerator();
-					while (enumerator.MoveNext())
-					{
-						var result = enumerator.Current as string;
-						results.Add(result);
-					}
+					var results = cmdlet.Invoke().OfType<string>().ToList();
 
 					// Assert.
 					Assert.Equal(results.First(), expectedResult);

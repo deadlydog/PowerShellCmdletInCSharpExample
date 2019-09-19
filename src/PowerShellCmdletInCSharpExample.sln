@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerShellCmdletInCSharpExample", "PowerShellCmdletInCSharpExample\PowerShellCmdletInCSharpExample.csproj", "{AF707D29-53A0-4C9C-A613-2F874FF061C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShellCmdletInCSharpExample.Tests", "PowerShellCmdletInCSharpExample.Tests\PowerShellCmdletInCSharpExample.Tests.csproj", "{43EAC093-0C87-462B-AD7B-55C12A93E9D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShellCmdletInCSharpExample.Tests", "PowerShellCmdletInCSharpExample.Tests\PowerShellCmdletInCSharpExample.Tests.csproj", "{6924C49D-08A4-442C-8A1A-1021C0C96E7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AF707D29-53A0-4C9C-A613-2F874FF061C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF707D29-53A0-4C9C-A613-2F874FF061C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF707D29-53A0-4C9C-A613-2F874FF061C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43EAC093-0C87-462B-AD7B-55C12A93E9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43EAC093-0C87-462B-AD7B-55C12A93E9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43EAC093-0C87-462B-AD7B-55C12A93E9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43EAC093-0C87-462B-AD7B-55C12A93E9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6924C49D-08A4-442C-8A1A-1021C0C96E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6924C49D-08A4-442C-8A1A-1021C0C96E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6924C49D-08A4-442C-8A1A-1021C0C96E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6924C49D-08A4-442C-8A1A-1021C0C96E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
