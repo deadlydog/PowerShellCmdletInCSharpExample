@@ -1,6 +1,6 @@
 # PowerShell cmdlet in C# example
 
-This repo is here simply to show off how you can create a simple PowerShell Core (cross platform) cmdlet in C# and unit test it with xUnit in a .Net Core test project, and is a companion sample to [my blog post](https://blog.danskingdom.com/Creating-and-testing-PowerShell-Core-cmdlets-in-CSharp/) that describes the process.
+This repo is here simply to show off how you can create a simple PowerShell Core (cross platform) cmdlet in C# and unit test it with xUnit in a .Net Core test project, and is a companion sample to [my blog post](https://blog.danskingdom.com/Create-and-teste-PowerShell-Core-cmdlets-in-CSharp/) that describes the process.
 
 We use the [Microsoft.PowerShell.SDK](https://www.nuget.org/packages/Microsoft.PowerShell.SDK/) NuGet package in the xUnit test project, which allows us to invoke the cmdlet.
 
